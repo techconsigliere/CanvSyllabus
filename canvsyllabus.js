@@ -14,11 +14,11 @@
 // feed it, and its last step is a DOMPurify pass with the Canvas-safe
 // whitelist, so nothing reaches the clipboard without going through that gate.
 
-import * as pdfjsLib from "./vendor/pdf.min.mjs?v=0.1.0";
+import * as pdfjsLib from "./vendor/pdf.min.mjs?v=0.1.1";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdf.worker.min.mjs?v=0.1.0";
+pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdf.worker.min.mjs?v=0.1.1";
 
 // What Canvas gets. A deliberately narrow subset of what the Rich Content
 // Editor accepts: structure, emphasis, links, and tables, with no styles,

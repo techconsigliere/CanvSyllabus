@@ -24,4 +24,4 @@ python3 build.py --check    # before you push
 every script URL, so a new version always means fresh JavaScript after a hard
 refresh.
 
-Part of the Technology Consigliere Canvas tools. License: MIT.
+License: MIT.
